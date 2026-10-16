@@ -1,0 +1,30 @@
+﻿@page "/"
+@inject HttpClient Http
+
+<PageTitle>Sistema de Gestión de Bar</PageTitle>
+<h1>Sistema de Gestión de Bar</h1>
+
+<p>@mensaje</p>
+
+@code {
+    private string mensaje = "Conectando con la API...";
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            var resultado = await Http.GetFromJsonAsync<RespuestaApi>("api/Combos");
+
+            mensaje = resultado?.Mensaje ?? "La API no devolvió información.";
+        }
+        catch (Exception ex)
+        {
+            mensaje = $"Error al conectar con la API: {ex.Message}";
+        }
+    }
+
+    public class RespuestaApi
+    {
+        public string Mensaje { get; set; } = string.Empty;
+    }
+}
