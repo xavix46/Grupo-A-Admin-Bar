@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37806.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarAPI", "BarAPI\BarAPI.csproj", "{4A492401-15B3-4D4B-95BD-0FB734964C95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarCliente", "BarCliente\BarCliente.csproj", "{F4921045-688D-435B-A019-54355206471B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A492401-15B3-4D4B-95BD-0FB734964C95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A492401-15B3-4D4B-95BD-0FB734964C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A492401-15B3-4D4B-95BD-0FB734964C95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A492401-15B3-4D4B-95BD-0FB734964C95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4921045-688D-435B-A019-54355206471B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4921045-688D-435B-A019-54355206471B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4921045-688D-435B-A019-54355206471B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4921045-688D-435B-A019-54355206471B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14721724-8AFD-4811-A763-E01C37D2F9A0}
+	EndGlobalSection
+EndGlobal
